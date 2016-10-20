@@ -4,7 +4,6 @@
 // functions
 //
 
-
 function proUpdateStatus($id, $description, $status, $message)
 {
 	$escaped_msg = mysql_real_escape_string($message);
@@ -292,10 +291,10 @@ function proRebuildJnewsSubscriptionLists()
 	/*
 	 * implement the following logic from Mike H.
 	 * 
-	 * IF the subscriber’s zipcode is on the list
-	 * — IF the subscriber is not already subscribed
-	 * — — IF the subscriber is NOT on the unsubscribed list (Check image below).
-	 * — — THEN add the subscriber to the list
+	 * IF the subscriberï¿½s zipcode is on the list
+	 * ï¿½ IF the subscriber is not already subscribed
+	 * ï¿½ ï¿½ IF the subscriber is NOT on the unsubscribed list (Check image below).
+	 * ï¿½ ï¿½ THEN add the subscriber to the list
 	 * ELSE do nothing
 	 *     -- dated 7/26/14
 	 */
